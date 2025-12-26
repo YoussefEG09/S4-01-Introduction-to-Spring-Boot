@@ -40,4 +40,19 @@ public class UserController {
                         new UserNotFoundException("User not found with id " + id)
                 );
     }
+
+    @GetMapping
+    public List<User> getUsers(
+            @RequestParam(required = false) String name) {
+
+        if (name == null) {
+            return users;
+        }
+
+        return users.stream()
+                .filter(user ->
+                        user.getName().toLowerCase().contains(name.toLowerCase())
+                )
+                .toList();
+    }
 }
