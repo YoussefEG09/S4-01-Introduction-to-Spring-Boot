@@ -21,7 +21,7 @@ Maven 3.9.11
 Java IDE
 
 # Installation
-Clone repository (https://github.com/AlbertMedina/4.1-Spring-Framework-Basics-Nivell3.git). git clone https://github.com/AlbertMedina/4.1-Spring-Framework-Basics-Nivell3.git
+Clone repository (https://github.com/YoussefEG09/S4-01-Introduction-to-Spring-Boot.git)). git clone https://github.com/YoussefEG09/S4-01-Introduction-to-Spring-Boot.git
 Import project to Java IDE.
 
 # Execution
@@ -29,5 +29,6 @@ Open project with Java IDE.
 Locate UserApiApplication.java and run it from your IDE (or run mvn spring-boot:run in your terminal).
 Use your browser or postman to test the endpoints.
 Tests can also be found in the test folder.
+
 
 
